@@ -1,13 +1,13 @@
 <template>
-  <div class="grabpay">
+  <div class="favePay">
     <div class="QRcode">
-        <div id="title">GrabPay</div>
+        <div id="title">favePay</div>
     </div>
     <div id="QR">
-        <img alt="GrabPay QR code" src="../../assets/grabpay.jpg">
+        <img alt="favePay QR code" src="../../assets/favePay.png">
     </div>
     <div class="rebate">
-        <div id="title">Tax Rebate</div>
+        <div id="title">favePay</div>
     </div>
     <div id="rebateInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
   </div>
@@ -16,7 +16,7 @@
 <script>
 export default {
   name: 'App',
-  display:"GrabPay",
+  display:"favePay",
   props: {
     msg: String
   },

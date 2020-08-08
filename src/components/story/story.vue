@@ -13,7 +13,6 @@
       <div id="slideshow">
         <b-carousel
         id="carousel-1"
-        v-model="slide"
         :interval="4000"
         controls
         indicators
@@ -62,8 +61,10 @@
         </b-carousel-slide>
       </b-carousel>
         </div>
-        <div id="title">About Flag Day 2020<br>
-        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+        <div id ='aboutFD'>
+          <div id="title">About Flag Day 2020<br>
+          <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+        </div>
         <div id="GOH">
           <div id="GOHPhoto">
             <img src="../../assets/Ong-Ye-Kung.jpg" id="OYK">
@@ -93,14 +94,28 @@
         </div>
       </div>
       <div id='bottomBanner'>
-        <div id='bannerTop'>
+        <div id='bannerTop'>Administered By:
         </div>
+        <img src="../../assets/msflogo.jpg" id="msflogo">
       </div>
     </div>
   </body>
 </template>
 
 <script>
+var video = '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/kKybPEgRkIc" frameborder="0" allowfullscreen></iframe>';
+var date = new Date();
+var deadline = new Date('August 09, 2020 00:00:00');
+if (date.getUTCMonth() >= deadline.getMonth() 
+&& date.getUTCFullYear() >= deadline.getFullYear() 
+&& date.getUTCDate() >= deadline.getDate()) {
+  video = '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/lMZfAJfYoFY" frameborder="0" allowfullscreen></iframe>';
+}
+function loaded() {
+  var res = document.getElementById('video');
+  res.insertAdjacentHTML('beforeend', video);
+}
+document.addEventListener("DOMContentLoaded", loaded);
 export default {
   name: 'App',
   display: "Our Story",
@@ -110,7 +125,7 @@ export default {
   data: function() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
     }
   },
   methods: {
@@ -215,5 +230,32 @@ a {
   font-size: 3vw;
   text-align: center;
   padding-bottom: 5vw;
+}
+
+#video {
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+
+#bottomBanner {
+  height: 40vh;
+  background-color:blueviolet;
+}
+#bannerTop {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
+  padding: 1vw;
+}
+#msflogo {
+  height: 30vh;
+  width: auto;
+  object-fit: cover;
+  margin: 1vw;
+  border: 2px solid black;
+}
+
+#aboutFD {
+  padding-top: 2.5vw;
 }
 </style>

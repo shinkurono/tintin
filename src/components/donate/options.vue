@@ -8,7 +8,7 @@
                 <div class="donation-tabs">
                     <span class="donation-tab"><router-link to="/paynow"><a>PayNow</a></router-link></span>            
                     <span class="donation-tab"><router-link to="/grabpay"><a>GrabPay</a></router-link></span>
-                    <span class="donation-tab"><router-link to="/others"><a>Others</a></router-link></span>
+                    <span class="donation-tab"><router-link to="/favepay"><a>favePay</a></router-link></span>
                 </div>
             </nav>
         </div>
