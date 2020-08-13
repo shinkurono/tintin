@@ -4,11 +4,12 @@
     <link href='https://fonts.googleapis.com/css?family=Miniver' rel='stylesheet'>
     <div class="story">
       <div id="banner">
-        <div id="bannerTitle">
+        <img id="storybanner" src="../../assets/storybanner.png" width="100%">
+        <div id="bannerTitle" class="titletext">
           Blossom Seeds
           <br>Flag Day 2020
         </div>
-        <div id="bannerSubtitle">~A Compassionate Journey Made Possible~</div>
+        <div id="bannerSubtitle" class="titletext">~A Compassionate Journey Made Possible~</div>
       </div>
       <div id="slideshow">
         <b-carousel
@@ -67,7 +68,7 @@
         </div>
         <div id="GOH">
           <div id="GOHPhoto">
-            <img src="../../assets/Ong-Ye-Kung.jpg" id="OYK">
+            <img src="../../assets/oykmp.png" id="OYK">
           </div>
           <div id="GOHIntro">
             <div id="GOHheader">Guest of Honour</div>
@@ -89,8 +90,27 @@
       </div>
       <div id='descriptions'>
         <div id='comments'>
+          <div id='comment1'>
+            <img class='comment' src='../../assets/comment1.png'>
+            <div id='text'>
+            "I will not fly (commit suicide) because don’t want to let them (BLS) down who take care of us since 2015"</div>
+          </div>
+          <div id='comment2'>
+            <div id='text'>
+            "Blossom Seeds has provided me with so much kindness and help. I no longer feel lonely and have more friends to talk to."</div>
+            <img class='comment' src='../../assets/comment2.png'>
+          </div>
+          <div id='comment3'>
+            <img class='comment' src='../../assets/comment3.png'>
+            <div id='text'>
+              "With the help of BLS, I am able to carry out my daily activities happily instead of being confined to my house. Without them, I will not be happy."
+            </div>
+          </div>
         </div>
         <div id='donationEffect'>
+          Your donations will help us...<br>
+          Make the MET services readily available to transport seniors to hospitals for medical appointments<br>
+          Conduct events such as goodie bag distributions to hand out essential items such as groceries and other househild items to needy seniors
         </div>
       </div>
       <div id='bottomBanner'>
@@ -161,16 +181,28 @@ a {
 #bannerTitle {
   font-size: 7vw;
   font-family: 'Courgette';
-  padding-top: 10vw;
-  padding-bottom: 1vw;
+  top:30%;
   font-weight: 900;
 }
 #bannerSubtitle {
   font-family: "Miniver";
   font-size: 4vw;
+  top:70%;
   padding-bottom: 10vw;
 }
 #banner {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#banner .titletext {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left:0;
+  right: 0;
   text-align: center;
 }
 #title {
@@ -188,14 +220,13 @@ a {
 
 #OYK {
   border-radius: 50%;
-  width: 20vw;
+  width: 25vw;
   height: 25vw;
-  border: 1px solid black;
 }
 
 #GOHPhoto {
   display: inline-block;
-  width: 40%;
+  width: 42.5%;
   text-align: right;
   padding-right: 2.5vw;
 }
@@ -257,5 +288,27 @@ a {
 
 #aboutFD {
   padding-top: 2.5vw;
+}
+
+#storybanner {
+  filter: opacity(30%);
+}
+
+.comment {
+  width:15vw;
+  height:15vw;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#comments .text {
+  display: inline-block;
+  width: 30%;
+}
+#comments {
+  width: 50%;
+}
+#donationEffect {
+  width: 50%;
 }
 </style>

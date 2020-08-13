@@ -4,7 +4,7 @@
             <img alt="Blossom Seeds Logo" src="../assets/blossom-logo.png" width="200" height="172">
             <div class="header-tabs">
                 <span class="header-tab"><router-link to="/story"><a>Our Story</a></router-link></span>            
-                <span class="header-tab"><router-link to="/donate"><a>Donate</a></router-link></span>
+                <span class="header-tab" id='donate'><router-link to="/donate"><a>Donate</a></router-link></span>
                 <span class="header-tab"><router-link to="/contact"><a>Contact Us</a></router-link></span>
             </div>
         </nav>
