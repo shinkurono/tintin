@@ -6,7 +6,7 @@
       <div class='text'>+65 6259 8614</div>
       <h1>Centre Service Hours :</h1>
       <div class='text'>(Mon- Fri) 9am - 6pm</div>
-      <h1>Our centres</h1>
+      <h1>Our centres :</h1>
       <div class='text'><a href='https://www.blossomseeds.sg/contact-us'>Go to our main website to see where our centres are loacted!</a></div>
     </div>
     <div id='emailinfo'>

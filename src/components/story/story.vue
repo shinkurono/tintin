@@ -11,6 +11,10 @@
         </div>
         <div id="bannerSubtitle" class="titletext">~A Compassionate Journey Made Possible~</div>
       </div>
+      <div id ='covidprep'>
+        <div id="title">Preparation against COVID-19 Pre-Circuit Breaker<br>
+        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+      </div>
       <div id="slideshow">
         <b-carousel
         id="carousel-1"
@@ -26,15 +30,15 @@
         >
 
         <!-- Slides with image only -->
-        <b-carousel-slide img-src="https://i.imgur.com/S4v6lZE.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/774NWHz.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/9lZqaji.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/tV50WJ8.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/enV9on6.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/E6B8NVh.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/f4mrcnp.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/RiEyFFG.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/yuta9Kk.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/S4v6lZE.jpg"><p>President Halimah Yacob handing out masks to Blossom Seeds' beneficiaries, supported by Youth Corps Singapore</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/774NWHz.jpg"><p>Beneficiary expressing gratitude to President Halimah for the gift of masks</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/9lZqaji.jpg"><p>Blossom Seeds Volunteers taking a selfie with President Halimah</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/tV50WJ8.jpg"><p>Group photo of Youth Corps Singapore members who came to help out</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/enV9on6.jpg"><p>Medical Escort & Transport Service supporting frail and needy seniors for medical appointments at hospitals</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/E6B8NVh.jpg"><p>Senior Management express heartfelt gratitude to President Halimah for gracing the event</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/f4mrcnp.jpg"><p>President Halimah engaging in small talk with beneficiaries</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/RiEyFFG.jpg"><p>Blossom Seeds celebrates the successful handing out of masks to the elderly</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/yuta9Kk.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide>
         </b-carousel>
       </div>
         <div id ='aboutFD'>
@@ -48,15 +52,15 @@
           <div id="GOHIntro">
             <div id="GOHheader">Guest of Honour</div>
             Mr Ong Ye Kung<br>
-            Minister of Education and Grassroots Advisor to Sembawang GRC
+            Minister of Transport and Grassroots Advisor to Sembawang GRC (Sembawang Central)
           </div>
           <div id="GOHmessage">
-            In light of the ongoing Covid-19 Pandemic, Blossom Seeds has not forgotten those in need and we are currently driving a fund-raising campaign for the xxx. We hope to...
+            In light of the ongoing Covid-19 pandemic Blossom Seeds has not forgotten the vulnerable elderly community in need of support. Through our fund-raising campaign Flag Day 2020, we wish to continue assisting needy seniors during this trying time by making essential services, such as our Medical Escort & Transport (MET) service readily available to them. We greatly appreciate your support in our continued efforts to keep the elderly in our community safe, healthy and happy!
           </div>
         </div> 
       <div id="stream">
         Saturday, 7 November 2020 @ 9am<br>
-        Join us for our livestream on Facebook
+        Join us for our livestream on <a href='https://www.facebook.com/BlossomSeeds'>Facebook</a>
       </div>
       <div id="aboutUs">
         <div id='title'>About Blossom Seeds<br>
@@ -67,26 +71,27 @@
         <div id='comments'>
           <div id='comment1'>
             <img class='comment' src='../../assets/comment1.png'>
-            <div id='text'>
+            <div class='text'>
             "I will not fly (commit suicide) because don’t want to let them (BLS) down who take care of us since 2015"</div>
           </div>
           <div id='comment2'>
-            <div id='text'>
+            <div class='text'>
             "Blossom Seeds has provided me with so much kindness and help. I no longer feel lonely and have more friends to talk to."</div>
             <img class='comment' src='../../assets/comment2.png'>
           </div>
           <div id='comment3'>
             <img class='comment' src='../../assets/comment3.png'>
-            <div id='text'>
+            <div class='text'>
               "With the help of BLS, I am able to carry out my daily activities happily instead of being confined to my house. Without them, I will not be happy."
             </div>
           </div>
         </div>
         <div id='donationEffect'>
-          Your donations will help us...<br>
+          <div id='effectHeader'>Your donations will help us :</div>
           <ul>
-            <li>Make the MET services readily available to transport seniors to hospitals for medical appointments</li>
+            <li>Make the Medical Escort & Transport services readily available to transport seniors to hospitals for medical appointments</li>
             <li>Conduct events such as goodie bag distributions to hand out essential items such as groceries and other househild items to needy seniors</li>
+            <li>Introduce a wider range of activities and workshops to help the elderly maintain their physical health and mental well-being</li>
           </ul>
         </div>
       </div>
@@ -200,7 +205,7 @@ a {
 
 #GOHIntro {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   text-align: left;
   padding-left: 2.5vw;
   font-size: 1.75vw;
@@ -217,10 +222,12 @@ a {
 
 #GOHmessage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.75vw;
   width: 80%;
   padding-left: 20vw;
   padding-bottom: 5vw;
+  text-align: justify;
+  line-height: 3.5vw;
 }
 
 #stream {
@@ -263,7 +270,7 @@ a {
   display: inline-block;
 }
 
-#comments #text {
+#comments .text {
   display: inline-block;
   width: 60%;
   padding-left: 2vw;
@@ -280,11 +287,11 @@ a {
   display: inline-block;
   position: absolute;
   width: 50%;
-  font-size: 2.5vw;
+  font-size: 2vw;
   line-height: 4vw;
 }
 
-#comment1 #text {
+#comment1 .text {
   margin-left: 2vw;
   padding-top: 2vw;
 }
@@ -293,7 +300,7 @@ a {
   margin-top: -4vw;
 }
 
-#comment2 #text {
+#comment2 .text {
   padding-top: 4vw;
 }
 
@@ -301,7 +308,7 @@ a {
   margin-top: -6vw;
 }
 
-#comment3 #text {
+#comment3 .text {
   padding-top: 4vw;
   margin-left: 2vw;
 }
@@ -320,5 +327,34 @@ a {
   height: auto;
   width: 90vw;
   top:-10vh;
+}
+
+#comments .text {
+  font-size: 1.5vw;
+}
+
+#effectHeader {
+  font-weight: 625;
+  margin-bottom: 3vw;
+}
+
+#donationEffect li{
+  margin-bottom: 2vw;
+}
+
+#covidprep {
+  margin-top: 2vw;
+}
+
+#carousel-1 p {
+  position: absolute;
+  left:11.75%;
+  text-align: center;
+  width: 60%;
+  font-size: 1.25vw;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 0.01px;
+  font-weight: 525;
+  background: rgb(138,43,226, 0.3);
 }
 </style>
