@@ -18,50 +18,25 @@
         controls
         indicators
         background="#ababab"
-        img-width="1024"
-        img-height="480"
+        img-width="20"
+        img-height="30"
         style="text-shadow: 1px 1px 2px #333;"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
         >
-        <!-- Text slides with image -->
-        <b-carousel-slide
-          caption="First slide"
-          text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-          img-src="https://picsum.photos/1024/480/?image=52"
-        ></b-carousel-slide>
-
-        <!-- Slides with custom text -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
 
         <!-- Slides with image only -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-
-        <!-- Slides with img slot -->
-        <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-        <b-carousel-slide>
-          <template v-slot:img>
-            <img
-              class="d-block img-fluid w-100"
-              width="1024"
-              height="480"
-              src="https://picsum.photos/1024/480/?image=55"
-              alt="image slot"
-            >
-          </template>
-        </b-carousel-slide>
-
-        <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-        <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-          </p>
-        </b-carousel-slide>
-      </b-carousel>
-        </div>
+        <b-carousel-slide img-src="https://i.imgur.com/S4v6lZE.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/774NWHz.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/9lZqaji.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/tV50WJ8.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/enV9on6.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/E6B8NVh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/f4mrcnp.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/RiEyFFG.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/yuta9Kk.jpg"></b-carousel-slide>
+        </b-carousel>
+      </div>
         <div id ='aboutFD'>
           <div id="title">About Flag Day 2020<br>
           <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
@@ -109,14 +84,11 @@
         </div>
         <div id='donationEffect'>
           Your donations will help us...<br>
-          Make the MET services readily available to transport seniors to hospitals for medical appointments<br>
-          Conduct events such as goodie bag distributions to hand out essential items such as groceries and other househild items to needy seniors
+          <ul>
+            <li>Make the MET services readily available to transport seniors to hospitals for medical appointments</li>
+            <li>Conduct events such as goodie bag distributions to hand out essential items such as groceries and other househild items to needy seniors</li>
+          </ul>
         </div>
-      </div>
-      <div id='bottomBanner'>
-        <div id='bannerTop'>Administered By:
-        </div>
-        <img src="../../assets/msflogo.jpg" id="msflogo">
       </div>
     </div>
   </body>
@@ -167,12 +139,7 @@ h3 {
   margin: 40px 0 0;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
+  list-style-type:circle;
 }
 a {
   color: #42b983;
@@ -267,11 +234,6 @@ a {
   text-align: center;
   padding-bottom: 2.5vw;
 }
-
-#bottomBanner {
-  height: 40vh;
-  background-color:blueviolet;
-}
 #bannerTop {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -301,14 +263,62 @@ a {
   display: inline-block;
 }
 
-#comments .text {
+#comments #text {
   display: inline-block;
-  width: 30%;
+  width: 60%;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 #comments {
+  display: inline-block;
+  padding-left:1vw;
   width: 50%;
+  margin-bottom: 2vw;
+  margin-top: 4vw;
 }
 #donationEffect {
+  display: inline-block;
+  position: absolute;
   width: 50%;
+  font-size: 2.5vw;
+  line-height: 4vw;
+}
+
+#comment1 #text {
+  margin-left: 2vw;
+  padding-top: 2vw;
+}
+
+#comment1 .comment {
+  margin-top: -4vw;
+}
+
+#comment2 #text {
+  padding-top: 4vw;
+}
+
+#comment2 .comment {
+  margin-top: -6vw;
+}
+
+#comment3 #text {
+  padding-top: 4vw;
+  margin-left: 2vw;
+}
+
+#comment3 .comment {
+  margin-top: -8vw;
+}
+
+#slideshow {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#carousel-1 .carousel-item{
+  max-height: 80vh;
+  height: auto;
+  width: 90vw;
+  top:-10vh;
 }
 </style>

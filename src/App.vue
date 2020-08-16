@@ -4,6 +4,7 @@
     <div class="website">
       <router-view><story/></router-view>
     </div>
+    <bottom/>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 //import OurStory from './components/story/story.vue';
 import Navbar from './components/Navbar.vue';
 import story from './components/story/story';
+import bottom from './components/bottom.vue'
 
 export default {
   name: 'App',
   components: {
     appNavbar:Navbar,
-    story
+    story,
+    bottom
   }
 }
 </script>

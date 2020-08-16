@@ -1,22 +1,22 @@
 <template>
   <div class="ourcontact">
     <div id='contactTitle'>Contact Us</div>
-    <div id='places'>
-      <h1>Address:</h1>
-      <p>Main Office:</p>
-      <div class='address'>105 Canberra Street, #02-01/06, Singapore 750105</div>
-      <div class='directions'>Take Bus 883 from Sembawang or Yishun MRT Station</div>
-      <p>Aljunied Branch Office:</p>
-      <div class='address'>12 Aljunied Road, KH Plaza, #03-02, Singapore, 389801</div>
-      <div class='directions'>Within 5 mins walking distance from Aljunied MRT Station</div>
-      <p>Woodlands Branch Office:</p>
-      <div class='address'>1 Woodlands drive 16, BW Monastery, Singapore 737764</div>
-      <div class='directions'>Take Bus 901 from Woodlands MRT Station</div>
+    <div id='contactinfo'>
+      <h1>Center General Hotline :</h1>
+      <div class='text'>+65 6259 8614</div>
+      <h1>Centre Service Hours :</h1>
+      <div class='text'>(Mon- Fri) 9am - 6pm</div>
+      <h1>Our centres</h1>
+      <div class='text'><a href='https://www.blossomseeds.sg/contact-us'>Go to our main website to see where our centres are loacted!</a></div>
     </div>
-    <div id='map'>
-
+    <div id='emailinfo'>
+      <h1>Facebook :</h1>
+      <div class='text'><a href="https://www.facebook.com/BlossomSeeds">Blossom Seeds</a></div>
+      <h1>CEO, Ms Ong Siew Chin :</h1>
+      <div class='text'>siewchin.ong@blossomseeds.sg</div>
+      <h1>Director, Cheng Yau Tong :</h1>
+      <div class='text'>yautong.cheng@blossomseeds.sg</div>
     </div>
-
   </div>
 </template>
 
@@ -55,41 +55,41 @@ a {
 
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 4vw;
+  font-size: 2.5vw;
   padding-bottom: 2vw;
+  text-align: left;
+  padding-left: 3vw;
 }
 
 #contactTitle {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 6vw;
+  font-size: 4.5vw;
   text-align: left;
   margin: 3vw;
-  padding-bottom: 2vw;
 }
 
-p {
+.text {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-bottom: 1vw;
   font-size: 2vw;
-  color: white;
-  background-color: darkmagenta;
-  padding: 0.25vw;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 4.5vw;
+  padding-bottom: 3vw;
+  color:darkmagenta;
 }
 
-.address {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:2vw;
-  font-weight: 600;
-  padding-bottom: 0.5vw;
+#contactinfo {
+  width:50%;
+  display: inline-block;
 }
 
-.directions {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.5vw;
-  margin-bottom:1vw;
+.ourcontact {
+  text-align: left;
 }
 
-#map {
-  width: 50%;
+#emailinfo {
+  width:50%;
+  display: inline-block;
+  position:absolute;
 }
 </style>
