@@ -5,6 +5,7 @@
                 <span class="header-tab"><router-link to="/story"><a>Our Story</a></router-link></span>            
                 <span class="header-tab" id='donate'><router-link to="/donate"><a>Donate</a></router-link></span>
                 <span class="header-tab"><router-link to="/contact"><a>Contact Us</a></router-link></span>
+                <span class="header-tab"><a href='https://www.blossomseeds.sg/'>Our Home Website</a></span>
             </div>
         </div>
         <img src="../assets/WebFooter.jpg" id="msflogo">
