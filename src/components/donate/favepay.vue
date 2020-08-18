@@ -9,7 +9,9 @@
     <div class="rebate">
         <div id="title">Tax Rebate</div>
     </div>
-    <div id="rebateInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div id="rebateInfo">Please help us fill in the form by clicking on the link below to help us keep track of the total donated amount! If you need a tax rebate, do indicate in the last question of the form as well. Thank you!</div>
+    <a href='https://forms.gle/uYRjhNgYCVnvAbWz7' id='formLink'  target="_blank">Donation and Contact Information</a>
+    <br><br><br>
   </div>
 </template>
 
@@ -66,5 +68,28 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.favePay {
+  background-color: #ebebeb;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#428e83;
+}
+
+#rebateInfo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
+  width: 85%;
+  padding-left:15vw;
+  padding-bottom: 2vw;
+}
+
+#formLink {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 750;
 }
 </style>

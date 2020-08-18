@@ -58,7 +58,7 @@ export default {
   top: 25%;
   color: white;
   -webkit-text-stroke: black;
-  -webkit-text-stroke-width: 2.2px;
+  -webkit-text-stroke-width: 1.5px;
 }
 
 #amount {
@@ -67,8 +67,9 @@ export default {
   color:purple;
   font-weight: bold;
   -webkit-text-stroke: white;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1.5px;
 }
+
 
 img {
   object-fit:cover;
@@ -88,5 +89,9 @@ li {
 }
 a {
   color: #42b983;
+}
+
+body {
+  background-color: #ebebeb;
 }
 </style>

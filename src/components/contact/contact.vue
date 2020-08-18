@@ -92,4 +92,8 @@ h1 {
   display: inline-block;
   position:absolute;
 }
+
+.ourcontact {
+  background-color: #ebebeb;
+}
 </style>

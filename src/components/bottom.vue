@@ -43,6 +43,7 @@ span {
     padding: 1%;
     padding-top: 1vh;
     display: inline-block;
+    text-decoration: none;
 }
 a {
     color: #ffffff;
@@ -54,6 +55,7 @@ a {
 
 a:hover {
     color:#ababab;
+    text-decoration: none;
 }
 
 #bottomBanner {

@@ -36,4 +36,8 @@ export default {
 a {
     text-decoration: none;
 }
+
+#app {
+  background-color: #ebebeb;
+}
 </style>

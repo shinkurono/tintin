@@ -53,14 +53,16 @@
             <div id="GOHheader">Guest of Honour</div>
             Mr Ong Ye Kung<br>
             Minister of Transport and Grassroots Advisor to Sembawang GRC (Sembawang Central)
-          </div>
+          </div><br>
+          <img src='../../assets/flowerside.png' id='flowerleft'>
           <div id="GOHmessage">
             In light of the ongoing Covid-19 pandemic Blossom Seeds has not forgotten the vulnerable elderly community in need of support. Through our fund-raising campaign Flag Day 2020, we wish to continue assisting needy seniors during this trying time by making essential services, such as our Medical Escort & Transport (MET) service readily available to them. We greatly appreciate your support in our continued efforts to keep the elderly in our community safe, healthy and happy!
           </div>
+          <img src='../../assets/flowerside.png' id='flowerright'>
         </div> 
       <div id="stream">
         Saturday, 7 November 2020 @ 9am<br>
-        Join us for our livestream on <a href='https://www.facebook.com/BlossomSeeds'>Facebook</a>
+        Join us for our livestream on <a href='https://www.facebook.com/BlossomSeeds' target="_blank">Facebook</a>
       </div>
       <div id="aboutUs">
         <div id='title'>About Blossom Seeds<br>
@@ -220,14 +222,26 @@ a {
   font-size: 2vw;
 }
 
+#flowerleft {
+  display:inline-block;
+  width:10%;
+}
+
 #GOHmessage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.75vw;
-  width: 80%;
-  padding-left: 20vw;
+  width: 60%;
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
   padding-bottom: 5vw;
   text-align: justify;
   line-height: 3.5vw;
+  display: inline-block;
+}
+
+#flowerright {
+  display: inline-block;
+  width:10%;
 }
 
 #stream {
@@ -235,6 +249,7 @@ a {
   font-size: 3vw;
   text-align: center;
   padding-bottom: 5vw;
+  margin-top:-22.5vw;
 }
 
 #video {
@@ -278,7 +293,7 @@ a {
 }
 #comments {
   display: inline-block;
-  padding-left:1vw;
+  padding-left:6vw;
   width: 50%;
   margin-bottom: 2vw;
   margin-top: 4vw;
@@ -289,6 +304,7 @@ a {
   width: 50%;
   font-size: 2vw;
   line-height: 4vw;
+  padding-right: 6vw;
 }
 
 #comment1 .text {
@@ -356,5 +372,14 @@ a {
   -webkit-text-stroke-width: 0.01px;
   font-weight: 525;
   background: rgb(138,43,226, 0.3);
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#428e83;
 }
 </style>
