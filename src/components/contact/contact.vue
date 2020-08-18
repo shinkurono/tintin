@@ -95,5 +95,6 @@ h1 {
 
 .ourcontact {
   background-color: #ebebeb;
+  background-image: url("../../assets/contactbg.png");
 }
 </style>
