@@ -13,6 +13,7 @@
 
 <script>
 import options from './options';
+//Change this for the total amount donated thus far
 var amount = 100000;
 var amountString = amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
