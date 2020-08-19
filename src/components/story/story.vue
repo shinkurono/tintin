@@ -102,19 +102,6 @@
 </template>
 
 <script>
-var video = '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/kKybPEgRkIc" frameborder="0" allowfullscreen></iframe>';
-var date = new Date();
-var deadline = new Date('August 09, 2020 00:00:00');
-if (date.getUTCMonth() >= deadline.getMonth() 
-&& date.getUTCFullYear() >= deadline.getFullYear() 
-&& date.getUTCDate() >= deadline.getDate()) {
-  video = '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/lMZfAJfYoFY" frameborder="0" allowfullscreen></iframe>';
-}
-function loaded() {
-  var res = document.getElementById('video');
-  res.insertAdjacentHTML('beforeend', video);
-}
-document.addEventListener("DOMContentLoaded", loaded);
 export default {
   name: 'App',
   display: "Our Story",
@@ -136,7 +123,25 @@ export default {
       slide == slide;
       this.sliding = false
     }
-  }
+  },
+  mounted: function () {
+    var video;
+    var now = new Date();
+    //Change the date here, add more dates if required
+    var deadline = new Date("August 20, 2020 00:00:00");
+    if (now.valueOf() < deadline.valueOf()) {
+      video =
+      //Change the links of the video here
+        '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/UGPrHj1nPt0" frameborder="0" allowfullscreen></iframe>';
+    } else {
+      video =
+      //Change the links of the video here
+        '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe>';
+    }
+    //Add additional links if needed
+    var videoTag = document.getElementById("video");
+    videoTag.innerHTML = video;
+  },
 }
 </script>
 
