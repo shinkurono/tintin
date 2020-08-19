@@ -131,11 +131,11 @@ export default {
     var deadline = new Date("August 20, 2020 00:00:00");
     if (now.valueOf() < deadline.valueOf()) {
       video =
-      //Change the links of the video here
+      //Change the embed links of the video here. Embed links follow this format: https://www.youtube.com/embed/{video id here}
         '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/UGPrHj1nPt0" frameborder="0" allowfullscreen></iframe>';
     } else {
       video =
-      //Change the links of the video here
+      //Change the embed links of the video here.  Embed links follow this format: https://www.youtube.com/embed/{video id here}
         '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe>';
     }
     //Add additional links if needed
