@@ -279,10 +279,6 @@ a {
   padding-top: 2.5vw;
 }
 
-#storybanner {
-  filter: opacity(30%);
-}
-
 .comment {
   width:15vw;
   height:15vw;
