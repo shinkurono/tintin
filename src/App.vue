@@ -2,7 +2,8 @@
   <div id="app">
     <app-navbar></app-navbar>
     <div class="website">
-      <router-view><story/></router-view>
+      <story></story>
+      <router-view></router-view>
     </div>
     <bottom/>
   </div>
