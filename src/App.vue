@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <app-navbar></app-navbar>
+    <story></story>
     <div class="website">
-      <story></story>
       <router-view></router-view>
     </div>
     <bottom/>
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-//import OurStory from './components/story/story.vue';
 import Navbar from './components/Navbar.vue';
 import story from './components/story/story.vue';
 import bottom from './components/bottom.vue'
