@@ -6,6 +6,7 @@ import grabpay from './components/donate/grabpay.vue';
 import favepay from './components/donate/favepay.vue';
 
 export const routes = [
+    { path: "/", redirect: "/story" },
     { path: '/contact', component: contact },
     { path: '/donate', component: donate },
     { path: '/story', component: story },

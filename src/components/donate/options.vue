@@ -26,9 +26,6 @@ export default {
   props: {
     msg: String
   },
-  /*data: function(){
-      return "our contact info"
-  }*/
 }
 </script>
 
@@ -73,5 +70,6 @@ a:hover{
 
 .donations {
   background-color: #ebebeb;
+  text-align: center;
 }
 </style>
