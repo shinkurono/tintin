@@ -12,7 +12,7 @@
 <script>
 //import OurStory from './components/story/story.vue';
 import Navbar from './components/Navbar.vue';
-import story from './components/story/story';
+import story from './components/story/story.vue';
 import bottom from './components/bottom.vue'
 
 export default {

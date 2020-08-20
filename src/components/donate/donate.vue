@@ -3,7 +3,7 @@
     <div class="donate">
       <img alt="Donation amount" src="../../assets/BlossomMET.jpeg" height="500px" width="100%">
       <div id ="current" class="text">
-        We have currently raised a total of
+        We aim to raise a total of
       </div>
       <div id = "amount" class = "text">${{amount}}</div>
     </div>
@@ -14,7 +14,7 @@
 <script>
 import options from './options';
 //Change this for the total amount donated thus far
-var amount = 100000;
+var amount = 600000;
 var amountString = amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
 export default {
