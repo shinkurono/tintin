@@ -2,7 +2,7 @@
   <div id="app">
     <app-navbar></app-navbar>
     <body>
-      <router-view><story/></router-view>
+      <router-view></router-view>
     </body>
     <bottom/>
   </div>
@@ -10,14 +10,12 @@
 
 <script>
 import Navbar from './components/Navbar.vue';
-import story from './components/story/story.vue';
 import bottom from './components/bottom.vue'
 
 export default {
   name: 'App',
   components: {
     appNavbar:Navbar,
-    story,
     bottom
   }
 }
