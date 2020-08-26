@@ -54,11 +54,11 @@
             Mr Ong Ye Kung<br>
             Minister of Transport and Grassroots Advisor to Sembawang GRC (Sembawang Central)
           </div><br>
-          <img src='../../assets/flowerside.png' id='flowerleft'>
+          <img src='../../assets/flagdaywords.png' id='flowerleft'>
           <div id="GOHmessage">
             In light of the ongoing Covid-19 pandemic Blossom Seeds has not forgotten the vulnerable elderly community in need of support. Through our fund-raising campaign Flag Day 2020, we wish to continue assisting needy seniors during this trying time by making essential services, such as our Medical Escort & Transport (MET) service readily available to them. We greatly appreciate your support in our continued efforts to keep the elderly in our community safe, healthy and happy!
           </div>
-          <img src='../../assets/flowerside.png' id='flowerright'>
+          <img src='../../assets/flagdaywords.png' id='flowerright'>
         </div> 
       <div id="stream">
         Saturday, 7 November 2020 @ 9am<br>
@@ -74,7 +74,7 @@
           <div id='comment1'>
             <img class='comment' src='../../assets/comment1.png'>
             <div class='text'>
-            "I will not fly (commit suicide) because don’t want to let them (BLS) down who take care of us since 2015"</div>
+            "I will not fly (commit suicide) because don’t want to let them (BSL) down who take care of us since 2015"</div>
           </div>
           <div id='comment2'>
             <div class='text'>
@@ -84,7 +84,7 @@
           <div id='comment3'>
             <img class='comment' src='../../assets/comment3.png'>
             <div class='text'>
-              "With the help of BLS, I am able to carry out my daily activities happily instead of being confined to my house. Without them, I will not be happy."
+              "With the help of BSL, I am able to carry out my daily activities happily instead of being confined to my house. Without them, I will not be happy."
             </div>
           </div>
         </div>
@@ -192,7 +192,7 @@ a {
 }
 #underline {
   width: 40vw;
-  height: 5vw;
+  height: 2vw;
   object-fit: cover;
   margin-bottom: 2vw;
 }
@@ -230,6 +230,7 @@ a {
 #flowerleft {
   display:inline-block;
   width:10%;
+  opacity: 70%;
 }
 
 #GOHmessage {
@@ -247,6 +248,7 @@ a {
 #flowerright {
   display: inline-block;
   width:10%;
+  opacity: 70%;
 }
 
 #stream {
