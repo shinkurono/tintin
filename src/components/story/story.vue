@@ -230,7 +230,6 @@ a {
 #flowerleft {
   display:inline-block;
   width:10%;
-  opacity: 70%;
 }
 
 #GOHmessage {
@@ -248,7 +247,6 @@ a {
 #flowerright {
   display: inline-block;
   width:10%;
-  opacity: 70%;
 }
 
 #stream {
