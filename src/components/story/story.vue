@@ -16,9 +16,10 @@
         <b-carousel
         id="carousel-1"
         :interval="4000"
+        fade
         controls
         indicators
-        background="#ababab"
+        background="black"
         img-width="20"
         img-height="30"
         style="text-shadow: 1px 1px 2px #333;"
@@ -345,10 +346,8 @@ a {
 }
 
 #carousel-1 .carousel-item{
-  max-height: 80vh;
-  height: auto;
-  width: 90vw;
-  top:-10vh;
+  max-height: 60vh;
+  height: 60vh !important;
 }
 
 #comments .text {
@@ -370,10 +369,11 @@ a {
 
 #carousel-1 p {
   position: absolute;
-  left:11.75%;
+  left: 20%;
+  bottom: 5%;
   text-align: center;
   width: 60%;
-  font-size: 1.25vw;
+  font-size: 1.5vw;
   -webkit-text-stroke: black;
   -webkit-text-stroke-width: 0.01px;
   font-weight: 525;
