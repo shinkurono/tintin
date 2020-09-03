@@ -8,7 +8,7 @@
                 <span class="header-tab"><a href='https://www.blossomseeds.sg/'>Our Home Website</a></span>
             </div>
         </div>
-        <img src="../assets/WebFooter.jpg" id="msflogo">
+        <img src="../assets/bottom.png" id="msflogo">
         <div id='othercontact'>+65 6259-8614   •   105 Canberra Street, #02-01/06, S(750105)   •   UEN: 201304904N</div>
     </div>
 </template>
@@ -59,7 +59,7 @@ a:hover {
 }
 
 #bottomBanner {
-  height: 45vh;
+  height: 70vh;
   background-color:blueviolet;
 }
 

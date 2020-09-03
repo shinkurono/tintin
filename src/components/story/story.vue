@@ -4,12 +4,8 @@
     <link href='https://fonts.googleapis.com/css?family=Miniver' rel='stylesheet'>
     <div class="story">
       <div id="banner">
-        <img id="storybanner" src="../../assets/storybanner.png" width="100%">
-        <div id="bannerTitle" class="titletext">
-          Blossom Seeds
-          <br>Flag Day 2020
-        </div>
-        <div id="bannerSubtitle" class="titletext">~A Compassionate Journey Made Possible~</div>
+        <img id="storybanner" src="../../assets/topBanner.jpg" width="100%">
+        <img id="ezlink" src="../../assets/ribbon1.png">
       </div>
       <div id='intro'>
         <div id="introtext">
@@ -123,16 +119,6 @@
           Blossom Seeds Limited (BSL) was initially set up by volunteers from BW Monastery (Singapore) to support the needy seniors.  The charity was registered as a company limited by guarantee in February 2013 and obtained charity status in April 2016 from the Ministry of Social and Family Development (MSF). It was later approved as an Institution of Public Character (IPC) on 1 February 2017. We also became a full member of National Council of Social Service (NCSS) in December 2016.
         </div>
       </div>
-      </div>
-    <div id="partners">
-      <div id="title">Our supporting partners<br>
-      <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
-    </div>
-      <div id='partnersimg'>
-        <img src='../../assets/ezlink.png' id='ezlink'>
-        <img src='../../assets/bwmonastery.png' id='monastery'>
-        <img src='../../assets/assyafaahmosque.png' id='mosque'>
-        <img src='../../assets/canberrass.png' id='ss'>
       </div>
     </div>
   </body>
@@ -471,5 +457,10 @@ a:hover {
 #partnersimg {
   padding-left: 15.5vw;
   padding-right:15.5vw;
+}
+
+#ezlink {
+  height: 15%;
+  width: 70%;
 }
 </style>
