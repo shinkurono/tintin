@@ -11,9 +11,10 @@
         </div>
         <div id="bannerSubtitle" class="titletext">~A Compassionate Journey Made Possible~</div>
       </div>
-      <div id ='covidprep'>
-        <div id="title">Preparation against COVID-19 Pre-Circuit Breaker<br>
-        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+      <div id='intro'>
+        <div id="introtext">
+          When we are ill, we see the doctor.  When we broke our glasses, we made a trip to fix it.  These tasks that we take for granted could be a challenging one for our needy seniors who are wheel-chair bound, ill, low income and with little/no family support.
+        </div>
       </div>
       <div id="slideshow">
         <b-carousel
@@ -41,10 +42,6 @@
         <b-carousel-slide img-src="https://i.imgur.com/yuta9Kk.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide>
         </b-carousel>
       </div>
-        <div id ='aboutFD'>
-          <div id="title">About Flag Day 2020<br>
-          <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
-        </div>
         <div id="GOH">
           <div id="GOHPhoto">
             <img src="../../assets/oykmp.png" id="OYK">
@@ -52,20 +49,37 @@
           <div id="GOHIntro">
             <div id="GOHheader">Guest of Honour</div>
             Mr Ong Ye Kung<br>
-            Minister of Transport and Grassroots Advisor to Sembawang GRC (Sembawang Central)
+            Minister for Transport and Grassroots Advisor to Sembawang GRC (Sembawang Central)
           </div><br>
-          <img src='../../assets/flagdaywords.png' id='flowerleft'>
           <div id="GOHmessage">
-            In light of the ongoing Covid-19 pandemic Blossom Seeds has not forgotten the vulnerable elderly community in need of support. Through our fund-raising campaign Flag Day 2020, we wish to continue assisting needy seniors during this trying time by making essential services, such as our Medical Escort & Transport (MET) service readily available to them. We greatly appreciate your support in our continued efforts to keep the elderly in our community safe, healthy and happy!
+            In light of the ongoing Covid-19 pandemic, Blossom Seeds continue to assist these needy seniors by making essential services, such as their Medical Escort & Transport service (MET) readily available to them.
           </div>
-          <img src='../../assets/flagdaywords.png' id='flowerright'>
         </div> 
-      <div id="stream">
-        Saturday, 7 November 2020 @ 9am<br>
-        Join us for our livestream on <a href='https://www.facebook.com/BlossomSeeds' target="_blank">Facebook</a>
+      <div id ='aboutFD'>
+        <div id="title">About Flag Day 2020<br>
+        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+      </div>
+      <div id='streamevent'>
+        <div id='streamtxt'>
+        All our fundraising events have to be cancelled for 2020. For the first time, Blossom Seeds is organising an inaugural flag day to raise funds on social media.<br><br>
+        Flag off time	: 7 November 2020, Saturday, 9am<br>
+        Guest of Honour	: Mr Ong Ye Kung, <br>
+        Minister for Transport & Adviser to Sembawang GRC (Sembawang Central)<br>
+        Venue	: <a href='https://www.facebook.com/BlossomSeeds' target="_blank">Facebook</a>/Blossom Seeds
+        </div>
+      </div>
+      <div id='register'>
+
+      </div>
+      <div id ='covidprep'>
+        <div id="title">Support towards Needy Seniors in COVID-19<br>
+        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+      </div>
+      <div id="covidmessage">
+        Medical appointments and treatments could not be postponed.  For our senior beneficiaries who are already at risk of social isolation, COVID-19 puts them in greater risk.  Our service to the Seniors continued throughout the Circuit Breaker.
       </div>
       <div id="aboutUs">
-        <div id='title'>About Blossom Seeds<br>
+        <div id='title'>Our Story<br>
         <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
         <div id='video'></div>
       </div>
@@ -91,11 +105,34 @@
         <div id='donationEffect'>
           <div id='effectHeader'>Your donations will help us :</div>
           <ul>
-            <li>Make the Medical Escort & Transport services readily available to transport seniors to hospitals for medical appointments</li>
-            <li>Conduct events such as goodie bag distributions to hand out essential items such as groceries and other househild items to needy seniors</li>
-            <li>Introduce a wider range of activities and workshops to help the elderly maintain their physical health and mental well-being</li>
+            <li>Supports our beneficiaries to receive treatment for their medical condition</li>
+            <li>Supports our beneficiaries with necessities such as getting a haircut, fixing their glasses and annual spring cleaning</li>
+            <li>Helps our beneficiaries to stay connected with the community and reduce the risk of social isolation and emotional distress</li>
+            <li>Allows the family member to work and not disrupting the income stream of the already low-income family</li>
+            <li>Encourages our beneficiaries to stay active by bringing them to our centre for activities or outings</li>
           </ul>
         </div>
+      </div>
+      <div id="aboutbsl">
+        <div id="title">About Blossom Seeds Limited<br>
+        <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+        <div id='aboutus'>
+        <div id="abouttext">
+          Singapore would not be where we are today without the strong foundation laid down by our seniors and it is with gratitude that we aspire to serve them in their golden years.
+          <br><br>
+          Blossom Seeds Limited (BSL) was initially set up by volunteers from BW Monastery (Singapore) to support the needy seniors.  The charity was registered as a company limited by guarantee in February 2013 and obtained charity status in April 2016 from the Ministry of Social and Family Development (MSF). It was later approved as an Institution of Public Character (IPC) on 1 February 2017. We also became a full member of National Council of Social Service (NCSS) in December 2016.
+        </div>
+      </div>
+      </div>
+    <div id="partners">
+      <div id="title">Our supporting partners<br>
+      <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
+    </div>
+      <div id='partnersimg'>
+        <img src='../../assets/ezlink.png' id='ezlink'>
+        <img src='../../assets/bwmonastery.png' id='monastery'>
+        <img src='../../assets/assyafaahmosque.png' id='mosque'>
+        <img src='../../assets/canberrass.png' id='ss'>
       </div>
     </div>
   </body>
@@ -218,7 +255,8 @@ a {
   font-size: 1.75vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
-  padding-bottom: 15vw;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
 }
 
 #GOHheader {
@@ -227,36 +265,17 @@ a {
   font-size: 2vw;
 }
 
-#flowerleft {
-  display:inline-block;
-  width:10%;
-}
-
 #GOHmessage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.75vw;
   width: 60%;
-  margin-left: 9.5vw;
-  margin-right: 9.5vw;
-  padding-bottom: 5vw;
+  margin-left: 19.5vw;
+  margin-right: 19.5vw;
+  padding-bottom: 3.5vw;
   text-align: justify;
   line-height: 3.5vw;
-  display: inline-block;
+  padding-top:3vw;
 }
-
-#flowerright {
-  display: inline-block;
-  width:10%;
-}
-
-#stream {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 3vw;
-  text-align: center;
-  padding-bottom: 5vw;
-  margin-top:-22.5vw;
-}
-
 #video {
   text-align: center;
   padding-bottom: 2.5vw;
@@ -352,11 +371,11 @@ a {
 
 #effectHeader {
   font-weight: 625;
-  margin-bottom: 3vw;
+  margin-bottom: 1vw;
 }
 
 #donationEffect li{
-  margin-bottom: 2vw;
+  font-size: 1.5vw;
 }
 
 #covidprep {
@@ -376,11 +395,81 @@ a {
 }
 
 body {
-  background-color: #ebebeb;
+  background-color: #f1f1f1;
 }
 
 a:hover {
   text-decoration: none;
   color:#428e83;
+}
+
+#intro {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+  padding-top: 2.5vw;
+  padding-bottom: vw;
+}
+
+#introtext {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.75vw;
+  text-align: justify;
+  line-height: 3vw;
+  padding-bottom: 3vw;
+}
+
+#aboutus {
+  margin-left: 17.5vw;
+  margin-right: 17.5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+#abouttext {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.75vw;
+  text-align: justify;
+  line-height: 3.2vw;
+}
+
+#aboutbsl #title {
+  margin-top:3vw;
+}
+
+#streamevent {
+  text-align: center
+}
+#streamtxt{
+  font-size: 2vw;
+  padding-left: 19.5vw;
+  padding-right: 19.5vw;
+  text-align:justify;
+  line-height: 3.5vw;
+}
+
+#covidmessage {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.75vw;
+  width: 60%;
+  margin-left: 19.5vw;
+  margin-right: 19.5vw;
+  padding-bottom: 3.5vw;
+  text-align: justify;
+  line-height: 3.5vw;
+}
+
+#ezlink {
+  height:10vw;
+  display: inline-block;
+}
+
+#monastery {
+  height:20vw;
+  padding-left: 10vw;
+}
+
+#partnersimg {
+  padding-left: 15.5vw;
+  padding-right:15.5vw;
 }
 </style>
