@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "tintin-c9d64"
+    "default": "tintin-c9d64",
+    "staging": "journey-made-possible"
   }
 }
