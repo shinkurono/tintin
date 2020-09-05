@@ -33,10 +33,10 @@
         <b-carousel-slide img-src="https://i.imgur.com/9lZqaji.jpg"><p>Blossom Seeds Volunteers taking a selfie with President Halimah</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/tV50WJ8.jpg"><p>Group photo of Youth Corps Singapore members who came to help out</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/enV9on6.jpg"><p>Medical Escort & Transport Service supporting frail and needy seniors for medical appointments at hospitals</p></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/E6B8NVh.jpg"><p>Senior Management express heartfelt gratitude to President Halimah for gracing the event</p></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/f4mrcnp.jpg"><p>President Halimah engaging in small talk with beneficiaries</p></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/RiEyFFG.jpg"><p>Blossom Seeds celebrates the successful handing out of masks to the elderly</p></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/yuta9Kk.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/aNYWmzy.jpg"><p>Senior Management express heartfelt gratitude to President Halimah for gracing the event</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/MFQNaBN.jpg"><p>President Halimah engaging in small talk with beneficiaries</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/Kwjulno.jpg"><p>Blossom Seeds celebrates the successful handing out of masks to the elderly</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/kRqqgVW.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide>
         </b-carousel>
       </div>
         <div id="GOH">
@@ -352,8 +352,8 @@ a {
 }
 
 #carousel-1 .carousel-item{
-  max-height: 60vh;
-  height: 60vh !important;
+  height: auto;
+  width: 90vw;
 }
 
 #comments .text {
