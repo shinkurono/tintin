@@ -72,4 +72,9 @@ a:hover {
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 </style>

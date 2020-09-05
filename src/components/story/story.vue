@@ -78,7 +78,9 @@
       <div id="aboutUs">
         <div id='title'>Our Story<br>
         <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
-        <div id='video'></div>
+        <div id='video'>
+          <iframe id="videoiframe" width="80%" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
       <div id='descriptions'>
         <div id='comments'>
@@ -148,24 +150,19 @@ export default {
       this.sliding = false
     }
   },
-  mounted: function () {
-    var video;
-    var now = new Date();
-    //Change the date here, add more dates if required
-    var deadline = new Date("August 20, 2020 00:00:00");
-    if (now.valueOf() < deadline.valueOf()) {
-      video =
-      //Change the embed links of the video here. Embed links follow this format: https://www.youtube.com/embed/{video id here}
-        '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/UGPrHj1nPt0" frameborder="0" allowfullscreen></iframe>';
-    } else {
-      video =
-      //Change the embed links of the video here.  Embed links follow this format: https://www.youtube.com/embed/{video id here}
-        '<iframe width="750vw" height="425vw" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe>';
-    }
-    //Add additional links if needed
-    var videoTag = document.getElementById("video");
-    videoTag.innerHTML = video;
-  },
+  // NOTE: Commented this out for performance:
+  // - If we need to change a video after some date, it's better to change the
+  //   source code & deploy again, rather than using JavaScript on client's
+  //   browser to recompute the video src.
+  // mounted: function () {
+  //   var now = new Date();
+  //   // //Change the date here, add more dates if required
+  //   var deadline = new Date("August 20, 2020 00:00:00");
+  //   if (now.valueOf() >= deadline.valueOf()) {
+  //     var videoIframeTag = document.getElementById("videoiframe");
+  //     videoIframeTag.src = "https://www.youtube.com/embed/23riEOmDOgM";
+  //   }
+  // },
 }
 </script>
 
@@ -264,8 +261,17 @@ a {
   padding-top:3vw;
 }
 #video {
-  text-align: center;
-  padding-bottom: 2.5vw;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+}
+#video iframe {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 10%;
+  top: 0;
 }
 #bannerTop {
   color: white;
