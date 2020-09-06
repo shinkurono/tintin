@@ -59,7 +59,6 @@ a:hover {
 }
 
 #bottomBanner {
-  height: 70vh;
   background-color:blueviolet;
 }
 
