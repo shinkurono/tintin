@@ -79,7 +79,7 @@
         <div id='title'>Our Story<br>
         <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
         <div id='video'>
-          <iframe id="videoiframe" width="80%" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe>
+          <!-- <iframe id="videoiframe" width="80%" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe> -->
         </div>
       </div>
       <div id='descriptions'>
