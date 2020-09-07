@@ -1,10 +1,10 @@
 <template>
-  <div class="favePay">
+  <div class="ezlink">
     <div class="QRcode">
-        <div id="title">favePay</div>
+        <div id="title">EZ-Link</div>
     </div>
     <div id="QR">
-        <img alt="favePay QR code" src="../../assets/favepay.png">
+        <img alt="EZ-Link QR code" src="../../assets/ezlink.png">
     </div>
     <div class="rebate">
         <div id="title">Tax Rebate</div>
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: 'App',
-  display:"favePay",
+  display:"EZ-Link",
   props: {
     msg: String
   },
@@ -70,13 +70,12 @@ a {
   color: #42b983;
 }
 
-.favePay {
-  background-color: #ebebeb;
-}
-
 a:hover {
   text-decoration: none;
   color:#428e83;
+}
+.ezlink {
+  background-color: #ebebeb;
 }
 
 #rebateInfo {

@@ -1,10 +1,10 @@
 <template>
-  <div class="favePay">
+  <div class="wechat">
     <div class="QRcode">
-        <div id="title">favePay</div>
+        <div id="title">WeChat</div>
     </div>
     <div id="QR">
-        <img alt="favePay QR code" src="../../assets/favepay.png">
+        <img alt="WeChat QR code" src="../../assets/wechat.png">
     </div>
     <div class="rebate">
         <div id="title">Tax Rebate</div>
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: 'App',
-  display:"favePay",
+  display:"WeChat",
   props: {
     msg: String
   },
@@ -70,13 +70,12 @@ a {
   color: #42b983;
 }
 
-.favePay {
-  background-color: #ebebeb;
-}
-
 a:hover {
   text-decoration: none;
   color:#428e83;
+}
+.wechat {
+  background-color: #ebebeb;
 }
 
 #rebateInfo {

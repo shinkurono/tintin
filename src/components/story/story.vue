@@ -28,7 +28,20 @@
         >
 
         <!-- Slides with image only -->
-        <b-carousel-slide img-src="https://i.imgur.com/S4v6lZE.jpg"><p>President Halimah Yacob handing out masks to Blossom Seeds' beneficiaries, supported by Youth Corps Singapore</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/IsIjeE9.jpg"><p>President Halimah engaging in small talk with beneficiaries</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/TF8SwHM.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/FlQADY7.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/ByqJdCj.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/iaBREnTh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/gXXzZ4Gh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/stkcyfmh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/6los8pfh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/INAQ2mEh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/LudW996h.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/Zn2SFtbh.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/bWPWD57h.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/cGR94SKh.jpg"></b-carousel-slide>
+        <!-- <b-carousel-slide img-src="https://i.imgur.com/S4v6lZE.jpg"><p>President Halimah Yacob handing out masks to Blossom Seeds' beneficiaries, supported by Youth Corps Singapore</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/774NWHz.jpg"><p>Beneficiary expressing gratitude to President Halimah for the gift of masks</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/9lZqaji.jpg"><p>Blossom Seeds Volunteers taking a selfie with President Halimah</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/tV50WJ8.jpg"><p>Group photo of Youth Corps Singapore members who came to help out</p></b-carousel-slide>
@@ -36,7 +49,7 @@
         <b-carousel-slide img-src="https://i.imgur.com/aNYWmzy.jpg"><p>Senior Management express heartfelt gratitude to President Halimah for gracing the event</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/MFQNaBN.jpg"><p>President Halimah engaging in small talk with beneficiaries</p></b-carousel-slide>
         <b-carousel-slide img-src="https://i.imgur.com/Kwjulno.jpg"><p>Blossom Seeds celebrates the successful handing out of masks to the elderly</p></b-carousel-slide>
-        <b-carousel-slide img-src="https://i.imgur.com/kRqqgVW.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.imgur.com/kRqqgVW.jpg"><p>Distribution of daily necessities by the community to the the elderly</p></b-carousel-slide> -->
         </b-carousel>
       </div>
         <div id="GOH">
@@ -79,7 +92,11 @@
         <div id='title'>Our Story<br>
         <img src='../../assets/3dscia.com.url.png' id = 'underline'></div>
         <div id='video'>
-          <!-- <iframe id="videoiframe" width="80%" src="https://www.youtube.com/embed/23riEOmDOgM" frameborder="0" allowfullscreen></iframe> -->
+          <!-- Note: Video should be preprocessed for streaming: https://superuser.com/a/438471/462430 -->
+          <!-- <iframe src="https://drive.google.com/file/d/11Sa--vhcddjtZyXt8foKdDXnfLK4EJK2/preview" width="640" height="480"></iframe> -->
+          <!-- <iframe id="videoiframe" width="560" height="315" src="https://www.youtube.com/embed/gYQUVp47gZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <!-- <iframe id="videoiframe" width="560" height="315" src="https://www.youtube.com/embed/E86ygqR79lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7lDpUpxcvmUhW1Wru1BByUkX_wknoRFV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div id='descriptions'>
@@ -155,12 +172,13 @@ export default {
   //   source code & deploy again, rather than using JavaScript on client's
   //   browser to recompute the video src.
   // mounted: function () {
-  //   var now = new Date();
+  //   // var now = new Date();
   //   // //Change the date here, add more dates if required
-  //   var deadline = new Date("August 20, 2020 00:00:00");
-  //   if (now.valueOf() >= deadline.valueOf()) {
+  //   // var deadline = new Date("August 20, 2020 00:00:00");
+  //   // if (now.valueOf() >= deadline.valueOf()) {
+  //   if (Math.random() > 0.5) {
   //     var videoIframeTag = document.getElementById("videoiframe");
-  //     videoIframeTag.src = "https://www.youtube.com/embed/23riEOmDOgM";
+  //     videoIframeTag.src = "https://www.youtube.com/embed/E86ygqR79lU";
   //   }
   // },
 }
@@ -264,7 +282,7 @@ a {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+  padding-bottom: 45%;
 }
 #video iframe {
   position: absolute;
