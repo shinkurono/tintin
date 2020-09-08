@@ -96,7 +96,7 @@
           <!-- <iframe src="https://drive.google.com/file/d/11Sa--vhcddjtZyXt8foKdDXnfLK4EJK2/preview" width="640" height="480"></iframe> -->
           <!-- <iframe id="videoiframe" width="560" height="315" src="https://www.youtube.com/embed/gYQUVp47gZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
           <!-- <iframe id="videoiframe" width="560" height="315" src="https://www.youtube.com/embed/E86ygqR79lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7lDpUpxcvmUhW1Wru1BByUkX_wknoRFV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="videoiframe" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7lDpUpxcvmUhW1Wru1BByUkX_wknoRFV&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div id='descriptions'>
@@ -171,16 +171,16 @@ export default {
   // - If we need to change a video after some date, it's better to change the
   //   source code & deploy again, rather than using JavaScript on client's
   //   browser to recompute the video src.
-  // mounted: function () {
-  //   // var now = new Date();
-  //   // //Change the date here, add more dates if required
-  //   // var deadline = new Date("August 20, 2020 00:00:00");
-  //   // if (now.valueOf() >= deadline.valueOf()) {
-  //   if (Math.random() > 0.5) {
-  //     var videoIframeTag = document.getElementById("videoiframe");
-  //     videoIframeTag.src = "https://www.youtube.com/embed/E86ygqR79lU";
-  //   }
-  // },
+  mounted: function () {
+    // var now = new Date();
+    // //Change the date here, add more dates if required
+    // var deadline = new Date("August 20, 2020 00:00:00");
+    // if (now.valueOf() >= deadline.valueOf()) {
+    var index = Math.floor(3* Math.random());
+    var videoIframeTag = document.getElementById("videoiframe");
+    videoIframeTag.src = "https://www.youtube.com/embed/videoseries?list=PL7lDpUpxcvmUhW1Wru1BByUkX_wknoRFV&loop=1&index=" + index;
+    console.log(videoIframeTag.src);
+  },
 }
 </script>
 

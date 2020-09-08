@@ -27,10 +27,10 @@ export default {
 .headerStyle {
     overflow: hidden;
     background: lightgray;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
     align-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 0%;
 }
 
 #header-nav {
@@ -53,7 +53,7 @@ export default {
 
 #logo {
     float: left;
-    width: 15%;
+    width: 12%;
 }
 
 a {
