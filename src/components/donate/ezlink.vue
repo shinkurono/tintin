@@ -4,7 +4,7 @@
         <div id="title">EZ-Link</div>
     </div>
     <div id="QR">
-        <img alt="EZ-Link QR code" src="../../assets/ezlink.png">
+        <img alt="EZ-Link QR code" src="../../assets/qrcode_ezlink.png">
     </div>
     <div class="rebate">
         <div id="title">Tax Rebate</div>

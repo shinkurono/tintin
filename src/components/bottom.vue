@@ -8,8 +8,29 @@
                 <span class="header-tab"><a href='https://www.blossomseeds.sg/'>Our Home Website</a></span>
             </div>
         </div>
-        <img src="../assets/bottom.png" id="msflogo">
-        <div id='othercontact'>+65 6259-8614   •   105 Canberra Street, #02-01/06, S(750105)   •   UEN: 201304904N</div>
+        <table class="bottom_table">
+            <tr class="bottom_tr">
+                <td class="bottom_td">Administered by</td>
+                <td class="bottom_td">Member of</td>
+                <td class="bottom_td">Sponsored by</td>
+            </tr>
+            <tr>
+                <td><img style="width: 18vw;" src="../assets/logo_msf.jpg" /></td>
+                <td><img style="width: 17vw;" src="../assets/logo_ncss.png" /></td>
+                <td><img style="width: 12vw; padding-right: 3vw;" src="../assets/logo_bwmonastery.png" /><img style="width: 12vw;" src="../assets/logo_ezlink.png" /></td>
+            </tr>
+            <tr class="bottom_tr">
+                <td span="3" class="bottom_td">Supported by</td>
+            </tr>
+            <tr class="bottom_tr">
+                <td colspan="3">
+                    <img style="width: 15vw; padding-right: 6vw;" src="../assets/logo_canberrass.png" />
+                    <img style="width: 9vw; padding-bottom: 5px;" src="../assets/logo_assyafaahmosque.png" />
+                    <img style="width: 35vw; padding-left: 10vw;" src="../assets/decorative-pixabay-abstract.png" />
+                </td>
+            </tr>
+        </table>
+        <div id='othercontact'>+65 6259-8614 • 105 Canberra Street, #02-01/06, S(750105) • UEN: 201304904N</div>
     </div>
 </template>
 
@@ -60,6 +81,8 @@ a:hover {
 
 #bottomBanner {
   background-color:blueviolet;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #othercontact {
@@ -73,7 +96,23 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
+
+.bottom_table {
+    width: 89vw;
+    font-size: 1.5vw;
+    border-color: 0px;
+    background-color: white;
+}
+
+/* .bottom_tr {
+} */
+
+.bottom_td {
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+}
+
 </style>
