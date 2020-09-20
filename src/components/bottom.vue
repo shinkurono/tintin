@@ -2,10 +2,10 @@
     <div id='bottomBanner'>
         <div id='bannerTop'>
             <div class="header-tabs">
-                <span class="header-tab"><router-link to="/story"><a>Our Story</a></router-link></span>            
-                <span class="header-tab" id='donate'><router-link to="/donate"><a>Donate</a></router-link></span>
-                <span class="header-tab"><router-link to="/contact"><a>Contact Us</a></router-link></span>
-                <span class="header-tab"><a href='https://www.blossomseeds.sg/'>Our Home Website</a></span>
+                <span class="header-tab"><router-link to="/story"><a><span id="text-bottom-our-story"></span></a></router-link></span>
+                <span class="header-tab" id='donate'><router-link to="/donate"><a><span id="text-bottom-donate"></span></a></router-link></span>
+                <span class="header-tab"><router-link to="/contact"><a><span id="text-bottom-contact-us"></span></a></router-link></span>
+                <span class="header-tab"><a href='https://www.blossomseeds.sg/'><span id="text-our-home-website"></span></a></span>
             </div>
         </div>
         <table class="bottom_table">
@@ -77,6 +77,19 @@ a {
 a:hover {
     color:#ababab;
     text-decoration: none;
+}
+
+.header-tabs {
+    margin: auto;
+    width: 100%;
+    /* transform: translate(0%, 0%); */
+    vertical-align: bottom;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+
+.header-tab {
+    width: 20%;
 }
 
 #bottomBanner {

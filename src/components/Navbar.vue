@@ -4,9 +4,9 @@
         <div id="header-nav">
             <nav>
                 <div class="header-tabs">
-                    <span class="header-tab"><router-link to="/story"><a>Our Story</a></router-link></span>
-                    <span class="header-tab"><router-link to="/donate"><a>Donate</a></router-link></span>
-                    <span class="header-tab"><router-link to="/contact"><a>Contact Us</a></router-link></span>
+                    <span class="header-tab"><router-link to="/story"><a><span id="text-our-story"></span></a></router-link></span>
+                    <span class="header-tab"><router-link to="/donate"><a><span id="text-donate"></span></a></router-link></span>
+                    <span class="header-tab"><router-link to="/contact"><a><span id="text-contact-us"></span></a></router-link></span>
                 </div>
             </nav>
         </div>
@@ -40,13 +40,14 @@ export default {
 .header-tabs {
     margin: auto;
     width: 70%;
-    transform: translate(15%, 0%);
+    /* transform: translate(0%, 0%); */
     vertical-align: bottom;
     /* border: 3px solid green; */
     padding: 10px;
 }
 
 .header-tab {
+    width: 15%;
     padding-left: 5%;
     padding-right: 5%;
 }

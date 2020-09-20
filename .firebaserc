@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "tintin-c9d64",
-    "staging": "journey-made-possible"
+    "staging": "journey-made-possible",
+    "beta": "jmp-beta"
   }
 }
