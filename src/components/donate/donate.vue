@@ -188,16 +188,17 @@ export default {
   left: 0;
   right: 0;
   text-align: center;
-  width: 75%;
+  width: 95%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 #text-aim {
-  font-size: 4.5vw;
+  font-size: 6vw;
+  font-weight: bolder;
   top: 25%;
   color: white;
   -webkit-text-stroke: black;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 0.1vw;
 }
 
 #amount {

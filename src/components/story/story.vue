@@ -8,6 +8,12 @@
       <span id="cnbutton" class="langbutton">中文</span>
       <span id="enbutton" class="langbutton">English</span>
     </div>
+    <div id="donate-button" class="overlay">
+      <a id="donate-button-a" href="/donate">
+        <img id="donate-image-cn" class="donate-image" src="../../assets/image_donate_now_cn.png" />
+        <img id="donate-image-en" class="donate-image" src="../../assets/image_donate_now_en.png" />
+      </a>
+    </div>
     <div id="banner">
       <img id="storyBannerEn" src="../../assets/topBanner-en.jpg" width="100%" />
       <img id="storyBannerCn" src="../../assets/topBanner-cn.jpg" width="100%" />
@@ -196,6 +202,8 @@ function translate() {
       "Our Home Website";
     document.getElementById("storyBannerEn").style.display = "inline";
     document.getElementById("storyBannerCn").style.display = "none";
+    document.getElementById("donate-image-en").style.display = "inline";
+    document.getElementById("donate-image-cn").style.display = "none";
     document.getElementById("introtext").innerHTML =
       "When we are ill, we see the doctor.  When we broke our glasses, we made a trip to fix it.  These tasks that we take for granted could be a challenging one for our needy seniors who are wheel-chair bound, ill, low income and with little/no family support.";
     document.getElementById("text-goh").innerHTML = "Guest of Honour";
@@ -252,6 +260,8 @@ function translate() {
     document.getElementById("text-our-home-website").innerHTML = "福善的主页";
     document.getElementById("storyBannerEn").style.display = "none";
     document.getElementById("storyBannerCn").style.display = "inline";
+    document.getElementById("donate-image-en").style.display = "none";
+    document.getElementById("donate-image-cn").style.display = "inline";
     document.getElementById("introtext").innerHTML =
       "我们生病了，要去看医生；我们眼镜摔坏了时，要去修理。这些我们认为理所当然的事， 对于那些以轮椅代步， 患病和低收入且几乎没有家庭支持的老年人，却是具很大的挑战性。";
     document.getElementById("text-goh").innerHTML = "主宾";
@@ -392,6 +402,22 @@ a {
   transform: translate(80vw, -120%);
 }
 
+/* TODO: More sophisticated detection possible!
+ * https://stackoverflow.com/questions/15303172/can-i-do-image-orientation-detection-with-html-or-css
+ */
+.donate-image {
+  width: 10vw;
+}
+
+/* https://tympanus.net/codrops/2013/11/07/css-overlay-techniques/ */
+/* Technique #4 */
+.overlay {
+  position: fixed;
+  bottom: 10vh;
+  right: 6vw;
+  z-index: 10;
+}
+
 #div-for-qr-code {
   margin-left: 9.5vw;
   margin-right: 9.5vw;
@@ -431,7 +457,7 @@ a {
 
 #banner .titletext {
   position: absolute;
-  z-index: 999;
+  z-index: 99;
   margin: 0 auto;
   left: 0;
   right: 0;
